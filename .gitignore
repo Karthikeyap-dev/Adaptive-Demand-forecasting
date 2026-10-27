@@ -1,0 +1,111 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Local datasets and generated sequences
+# Keep dataset documentation tracked (for example, data/README.md).
+data/raw/
+data/sequences/
+data/processed/
+
+# Model checkpoints / weights (often large)
+# Remove or narrow these patterns if a required model artifact should be versioned.
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.h5
+*.keras
+
+# Common generated experiment outputs
+# Uncomment only if these folders contain disposable outputs rather than important results.
+# experiments/**/outputs/
+# experiments/**/checkpoints/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+._*
+
+# Logs
+logs/
+*.log
+
+# Local datasets and generated sequences
+data/raw/
+data/processed/
+data/sequences/
+
+# Large model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Local application data
+webapp/data/*.db
+webapp/data/*.sqlite
+webapp/data/*.sqlite3
+webapp/data/config.json
+
+# Uploaded files
+webapp/uploads/*

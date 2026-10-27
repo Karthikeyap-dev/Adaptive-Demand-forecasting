@@ -1,0 +1,67 @@
+{
+  "heavy_lstm_ci": {
+    "RMSE": {
+      "point": 29.830118487631132,
+      "ci_95": [
+        18.229678026649083,
+        43.95006792807305
+      ]
+    },
+    "MAE": {
+      "point": 8.53333665725698,
+      "ci_95": [
+        7.94090521629794,
+        9.27762644451286
+      ]
+    }
+  },
+  "wilcoxon_tests": [
+    {
+      "model_a": "HeavyLSTM (ours)",
+      "model_b": "LSTM-1L (baseline)",
+      "statistic": 8535509.0,
+      "p_value": 2.9873231852366787e-85,
+      "significant_p05": true,
+      "significant_p01": true,
+      "interpretation": "HeavyLSTM (ours) significantly better than LSTM-1L (baseline) (p=0.0000)"
+    },
+    {
+      "model_a": "HeavyLSTM (ours)",
+      "model_b": "Na\u00efve (last-value)",
+      "statistic": 7706168.0,
+      "p_value": 6.6398056457413e-134,
+      "significant_p05": true,
+      "significant_p01": true,
+      "interpretation": "HeavyLSTM (ours) significantly better than Na\u00efve (last-value) (p=0.0000)"
+    },
+    {
+      "model_a": "HeavyLSTM (ours)",
+      "model_b": "Random Forest",
+      "statistic": 8961439.0,
+      "p_value": 1.3782253558647477e-64,
+      "significant_p05": true,
+      "significant_p01": true,
+      "interpretation": "HeavyLSTM (ours) significantly better than Random Forest (p=0.0000)"
+    },
+    {
+      "model_a": "HeavyLSTM (ours)",
+      "model_b": "Extra Trees",
+      "statistic": 9072608.0,
+      "p_value": 1.1227519531185807e-59,
+      "significant_p05": true,
+      "significant_p01": true,
+      "interpretation": "HeavyLSTM (ours) significantly better than Extra Trees (p=0.0000)"
+    },
+    {
+      "model_a": "HeavyLSTM (ours)",
+      "model_b": "XGBoost",
+      "statistic": 8787065.0,
+      "p_value": 1.0814894890715759e-72,
+      "significant_p05": true,
+      "significant_p01": true,
+      "interpretation": "HeavyLSTM (ours) significantly better than XGBoost (p=0.0000)"
+    }
+  ],
+  "bootstrap_n": 2000,
+  "n_sequences": 6850
+}

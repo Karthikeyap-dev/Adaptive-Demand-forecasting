@@ -1,0 +1,37 @@
+{
+  "seeds": [
+    {
+      "seed": 0,
+      "RMSE_base": 34.59656694028663,
+      "RMSE_corr": 33.671496516549965,
+      "improvement_pct": 2.6738792474216497
+    },
+    {
+      "seed": 1,
+      "RMSE_base": 34.59656694028663,
+      "RMSE_corr": 33.6710577598394,
+      "improvement_pct": 2.675147456233589
+    },
+    {
+      "seed": 2,
+      "RMSE_base": 34.59656694028663,
+      "RMSE_corr": 33.670949712411634,
+      "improvement_pct": 2.6754597630238908
+    },
+    {
+      "seed": 3,
+      "RMSE_base": 34.59656694028663,
+      "RMSE_corr": 33.6731503818818,
+      "improvement_pct": 2.6690988154941504
+    },
+    {
+      "seed": 4,
+      "RMSE_base": 34.59656694028663,
+      "RMSE_corr": 33.67104574029573,
+      "improvement_pct": 2.675182198246254
+    }
+  ],
+  "mean_improvement_pct": 2.673753496083907,
+  "std_improvement_pct": 0.00239071229677179,
+  "ci95_halfwidth": 0.0020955517224087385
+}

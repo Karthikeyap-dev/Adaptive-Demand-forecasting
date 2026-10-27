@@ -1,0 +1,42 @@
+[
+  {
+    "model": "LSTM-1L (baseline)",
+    "mean_ms": 0.21602077613351867,
+    "std_ms": 0.009884254729237483,
+    "p95_ms": 0.22387499047908932,
+    "params": 17217,
+    "size_mb": null
+  },
+  {
+    "model": "Random Forest",
+    "mean_ms": 1.0072743115597405,
+    "std_ms": 0.030005086240756318,
+    "p95_ms": 1.0389440925791857,
+    "params": null,
+    "size_mb": 7.706161
+  },
+  {
+    "model": "Extra Trees",
+    "mean_ms": 1.0166297742398456,
+    "std_ms": 0.07722011049568261,
+    "p95_ms": 1.0307815886335447,
+    "params": null,
+    "size_mb": null
+  },
+  {
+    "model": "HeavyLSTM (ours)",
+    "mean_ms": 2.412214587093331,
+    "std_ms": 0.01861163687625375,
+    "p95_ms": 2.447233334532939,
+    "params": 5388801,
+    "size_mb": 21.559155
+  },
+  {
+    "model": "ARIMA (fit+forecast)",
+    "mean_ms": 20.648810398415662,
+    "std_ms": 0.26695955389983794,
+    "p95_ms": 21.05779966514092,
+    "params": null,
+    "size_mb": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "10%": {
+    "coverage": 0.1,
+    "RMSE_base": 34.59656694028663,
+    "RMSE_corrected": 33.545443740825135,
+    "MAE_base": 15.672272118733094,
+    "MAE_corrected": 15.839247348887692,
+    "RMSE_improvement_pct": 3.0382297794914814
+  },
+  "25%": {
+    "coverage": 0.25,
+    "RMSE_base": 34.59656694028663,
+    "RMSE_corrected": 33.56972158064271,
+    "MAE_base": 15.672272118733094,
+    "MAE_corrected": 15.818127092087055,
+    "RMSE_improvement_pct": 2.968055649614737
+  },
+  "50%": {
+    "coverage": 0.5,
+    "RMSE_base": 34.59656694028663,
+    "RMSE_corrected": 33.60262331021705,
+    "MAE_base": 15.672272118733094,
+    "MAE_corrected": 15.789623540295688,
+    "RMSE_improvement_pct": 2.872954509576393
+  },
+  "75%": {
+    "coverage": 0.75,
+    "RMSE_base": 34.59656694028663,
+    "RMSE_corrected": 33.63873822716544,
+    "MAE_base": 15.672272118733094,
+    "MAE_corrected": 15.762417296756357,
+    "RMSE_improvement_pct": 2.7685657792994083
+  },
+  "100%": {
+    "coverage": 1.0,
+    "RMSE_base": 34.59656694028663,
+    "RMSE_corrected": 33.67156607070871,
+    "MAE_base": 15.672272118733094,
+    "MAE_corrected": 15.741467865285925,
+    "RMSE_improvement_pct": 2.6736782038936546
+  }
+}

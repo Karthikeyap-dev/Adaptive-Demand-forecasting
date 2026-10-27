@@ -1,0 +1,37 @@
+[
+  {
+    "comparison": "HeavyLSTM vs LSTM-1L (baseline)",
+    "p_raw": 2.9873231852366787e-85,
+    "effect_size_r": -0.272480100406249,
+    "p_holm_adjusted": 3.3199028228706504e-133,
+    "significant_after_holm": true
+  },
+  {
+    "comparison": "HeavyLSTM vs Na\u00efve (last-value)",
+    "p_raw": 6.6398056457413e-134,
+    "effect_size_r": -0.3431685714803209,
+    "p_holm_adjusted": 3.3199028228706504e-133,
+    "significant_after_holm": true
+  },
+  {
+    "comparison": "HeavyLSTM vs Random Forest",
+    "p_raw": 1.3782253558647477e-64,
+    "effect_size_r": -0.23617616694030494,
+    "p_holm_adjusted": 3.3199028228706504e-133,
+    "significant_after_holm": true
+  },
+  {
+    "comparison": "HeavyLSTM vs Extra Trees",
+    "p_raw": 1.1227519531185807e-59,
+    "effect_size_r": -0.22670073205786997,
+    "p_holm_adjusted": 3.3199028228706504e-133,
+    "significant_after_holm": true
+  },
+  {
+    "comparison": "HeavyLSTM vs XGBoost",
+    "p_raw": 1.0814894890715759e-72,
+    "effect_size_r": -0.2510388488227516,
+    "p_holm_adjusted": 3.3199028228706504e-133,
+    "significant_after_holm": true
+  }
+]

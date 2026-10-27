@@ -1,0 +1,18 @@
+{
+  "H": 7,
+  "n_items": 30,
+  "in_window": {
+    "base_MAE": 16.39373583170125,
+    "feedback_only_MAE": 16.378277506223338,
+    "composite_MAE": 16.385594783381592,
+    "feedback_improvement_pct": 0.09429409889611323,
+    "composite_improvement_pct": 0.04965950655319881,
+    "n": 210
+  },
+  "full_deployment": {
+    "base_MAE": 15.672272118733094,
+    "feedback_only_MAE": 15.659191936458834,
+    "composite_MAE": 15.73101879971936,
+    "n": 15739
+  }
+}
